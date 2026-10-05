@@ -1,0 +1,22 @@
+<div class="login-wrap">
+  <form class="login-card" [formGroup]="form" (ngSubmit)="submit()">
+    <h2>Sales Management System</h2>
+    <p class="subtitle">Sign in to continue</p>
+
+    <div class="form-row">
+      <label>Username</label>
+      <input type="text" formControlName="username" placeholder="e.g. admin" />
+    </div>
+
+    <div class="form-row">
+      <label>Password</label>
+      <input type="password" formControlName="password" placeholder="••••••••" />
+    </div>
+
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <button type="submit" class="btn btn-primary full" [disabled]="form.invalid || loading">
+      {{ loading ? 'Signing in...' : 'Login' }}
+    </button>
+  </form>
+</div>

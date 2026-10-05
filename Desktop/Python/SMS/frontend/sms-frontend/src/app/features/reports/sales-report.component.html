@@ -1,0 +1,44 @@
+<div class="page-container">
+  <div class="card">
+    <h2>Interactive Sales Report</h2>
+    <p class="hint">Drag a column header into the bar below to group by it (Customer, Category, Brand...).</p>
+
+    <dx-data-grid
+      [dataSource]="rows"
+      [showBorders]="true"
+      [allowColumnReordering]="true"
+      [allowColumnResizing]="true"
+      [rowAlternationEnabled]="true"
+      [groupPanel]="groupPanel"
+      [filterRow]="filterRow"
+      [headerFilter]="headerFilter"
+      [wordWrapEnabled]="true"
+      height="640">
+
+      <dxo-summary>
+        <dxo-group-item column="saleAmount" summaryType="sum" [showInGroupFooter]="true" [alignByColumn]="true"></dxo-group-item>
+        <dxo-group-item column="grossProfit" summaryType="sum" [showInGroupFooter]="true" [alignByColumn]="true"></dxo-group-item>
+        <dxo-total-item column="saleAmount" summaryType="sum"></dxo-total-item>
+        <dxo-total-item column="grossProfit" summaryType="sum"></dxo-total-item>
+      </dxo-summary>
+
+      <dxi-column dataField="itemPhoto" caption="Photo" [width]="70" [allowGrouping]="false" [allowSorting]="false" cellTemplate="photoCell"></dxi-column>
+      <dxi-column dataField="itemCode" caption="Item Code" [width]="110"></dxi-column>
+      <dxi-column dataField="itemDescription" caption="Description"></dxi-column>
+      <dxi-column dataField="unit" caption="Unit" [width]="80"></dxi-column>
+      <dxi-column dataField="customerName" caption="Customer"></dxi-column>
+      <dxi-column dataField="category" caption="Category" [width]="110"></dxi-column>
+      <dxi-column dataField="brand" caption="Brand" [width]="110"></dxi-column>
+      <dxi-column dataField="qty" caption="Qty" dataType="number" [width]="80"></dxi-column>
+      <dxi-column dataField="saleAmount" caption="Sale Amount" dataType="number" format="#,##0.00" [width]="120"></dxi-column>
+      <dxi-column dataField="totalCost" caption="Cost" dataType="number" format="#,##0.00" [width]="120"></dxi-column>
+      <dxi-column dataField="grossProfit" caption="Gross Profit" dataType="number" format="#,##0.00" [width]="130"></dxi-column>
+      <dxi-column dataField="invoiceDate" caption="Date" dataType="date" [width]="110"></dxi-column>
+
+      <div *dxTemplate="let cell of 'photoCell'">
+        <img *ngIf="cell.value" [src]="cell.value" class="grid-thumb" />
+        <span *ngIf="!cell.value">-</span>
+      </div>
+    </dx-data-grid>
+  </div>
+</div>

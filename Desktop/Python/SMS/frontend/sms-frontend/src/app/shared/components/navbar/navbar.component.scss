@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #1c2b3a;
+  color: #fff;
+  padding: 0 20px;
+  height: 56px;
+
+  .brand { font-weight: 700; font-size: 18px; margin-right: 40px; letter-spacing: 1px; }
+
+  .links {
+    display: flex;
+    gap: 22px;
+    flex: 1;
+
+    a {
+      color: #c4cdd7;
+      font-size: 14px;
+      padding: 8px 0;
+      border-bottom: 2px solid transparent;
+    }
+    a:hover { color: #fff; }
+    a.active { color: #fff; border-bottom-color: #2f6fed; }
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+  }
+}

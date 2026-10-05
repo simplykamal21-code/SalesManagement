@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\models\\salesheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\models\\salesheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\models\\salesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\models\\salesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\dtos\\salesinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\dtos\\salesinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\dtos\\reportdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\dtos\\reportdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\repositories\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\repositories\\interfaces\\isalesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\repositories\\interfaces\\isalesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|c:\\users\\admin\\desktop\\python\\sms\\backend\\sms.api\\models\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F1B2C3D-4A5E-4F6A-9B7C-1D2E3F4A5B6C}|SMS.API\\SMS.API.csproj|solutionrelative:sms.api\\models\\usermaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalesDetail.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\SalesDetail.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Models\\SalesDetail.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\SalesDetail.cs",
+              "RelativeToolTip": "SMS.API\\Models\\SalesDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:12:56.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "SMS.API\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:27:59.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\ItemDto.cs",
+              "RelativeDocumentMoniker": "SMS.API\\DTOs\\ItemDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\ItemDto.cs",
+              "RelativeToolTip": "SMS.API\\DTOs\\ItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:17:47.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "SMS.API\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:03:24.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "SMS.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:03:05.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesHeader.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\SalesHeader.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Models\\SalesHeader.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\SalesHeader.cs",
+              "RelativeToolTip": "SMS.API\\Models\\SalesHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T08:56:17.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "SMS.API\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAA9wMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T08:41:40.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\AuthUser.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Models\\AuthUser.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\AuthUser.cs",
+              "RelativeToolTip": "SMS.API\\Models\\AuthUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T10:02:12.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "SMS.API\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T09:45:41.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "SMS.API\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "SMS.API\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:02:59.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "SMS.API\\DTOs\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "SMS.API\\DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:10:53.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportDtos.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\ReportDtos.cs",
+              "RelativeDocumentMoniker": "SMS.API\\DTOs\\ReportDtos.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\ReportDtos.cs",
+              "RelativeToolTip": "SMS.API\\DTOs\\ReportDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:39:27.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SalesInvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\SalesInvoiceDto.cs",
+              "RelativeDocumentMoniker": "SMS.API\\DTOs\\SalesInvoiceDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\DTOs\\SalesInvoiceDto.cs",
+              "RelativeToolTip": "SMS.API\\DTOs\\SalesInvoiceDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:39:59.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Program.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Program.cs",
+              "RelativeToolTip": "SMS.API\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T09:49:53.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISalesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\Interfaces\\ISalesRepository.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Repositories\\Interfaces\\ISalesRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\Interfaces\\ISalesRepository.cs",
+              "RelativeToolTip": "SMS.API\\Repositories\\Interfaces\\ISalesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:02:36.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "SMS.API\\Repositories\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T06:02:32.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SMS.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\appsettings.json",
+              "RelativeToolTip": "SMS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T12:37:39.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SMS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T07:37:24.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SMS.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T11:16:40.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SalesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\SalesRepository.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Repositories\\SalesRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\SalesRepository.cs",
+              "RelativeToolTip": "SMS.API\\Repositories\\SalesRepository.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T09:45:34.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Services\\TokenService.cs",
+              "RelativeToolTip": "SMS.API\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T09:58:56.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "SMS.API\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T10:01:26.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "SMS.API\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T09:45:29.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\User.cs",
+              "RelativeToolTip": "SMS.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T08:56:09.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserMaster.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\UserMaster.cs",
+              "RelativeDocumentMoniker": "SMS.API\\Models\\UserMaster.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Python\\SMS\\backend\\SMS.API\\Models\\UserMaster.cs",
+              "RelativeToolTip": "SMS.API\\Models\\UserMaster.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T08:55:08.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

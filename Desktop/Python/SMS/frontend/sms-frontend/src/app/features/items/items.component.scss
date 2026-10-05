@@ -1,0 +1,44 @@
+.header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+
+.search {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid #d7dce2;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.grid {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+
+  th { text-align: left; padding: 10px; color: #5b6673; border-bottom: 2px solid #eceff3; font-size: 12px; text-transform: uppercase; }
+  td { padding: 10px; border-bottom: 1px solid #f0f2f5; vertical-align: middle; }
+  .empty { text-align: center; color: #9aa4b0; padding: 24px; }
+  .actions { display: flex; gap: 8px; }
+}
+
+.thumb {
+  width: 40px; height: 40px; object-fit: cover; border-radius: 4px;
+  &.placeholder {
+    display: flex; align-items: center; justify-content: center;
+    background: #f0f2f5; color: #9aa4b0; font-size: 10px;
+  }
+}
+
+.overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 10;
+}
+.drawer {
+  position: fixed; top: 0; right: 0; height: 100%; width: 380px;
+  background: #fff; box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+  padding: 24px; z-index: 11; overflow-y: auto;
+
+  h3 { margin-top: 0; }
+}
+.photo-row .preview {
+  width: 100px; height: 100px; object-fit: cover; border-radius: 6px; margin-bottom: 8px;
+  border: 1px solid #eceff3;
+}
+.drawer-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 20px; }

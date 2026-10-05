@@ -1,0 +1,74 @@
+<div class="page-container">
+  <div class="card">
+    <div class="header-row">
+      <h2>Customer Master</h2>
+      <button class="btn btn-primary" (click)="newCustomer()">+ New Customer</button>
+    </div>
+
+    <input class="search" type="text" placeholder="Search by name or code..."
+           [(ngModel)]="searchTerm" (ngModelChange)="load()" />
+
+    <table class="grid">
+      <thead>
+        <tr>
+          <th>Code</th><th>Name</th><th>Mobile</th><th>Email</th><th>Category</th><th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let c of customers">
+          <td>{{ c.code }}</td>
+          <td>{{ c.name }}</td>
+          <td>{{ c.mobile }}</td>
+          <td>{{ c.email }}</td>
+          <td><span class="badge">{{ c.category }}</span></td>
+          <td class="actions">
+            <button class="btn btn-secondary" (click)="edit(c)">Edit</button>
+            <button class="btn btn-danger" (click)="remove(c)">Delete</button>
+          </td>
+        </tr>
+        <tr *ngIf="customers.length === 0">
+          <td colspan="6" class="empty">No customers found.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Slide-over form for add/edit -->
+<div class="overlay" *ngIf="showForm" (click)="cancel()"></div>
+<div class="drawer" *ngIf="showForm">
+  <h3>{{ editingId ? 'Edit Customer' : 'New Customer' }}</h3>
+  <form [formGroup]="form" (ngSubmit)="save()">
+    <div class="form-row">
+      <label>Code</label>
+      <input type="text" formControlName="code" />
+    </div>
+    <div class="form-row">
+      <label>Name</label>
+      <input type="text" formControlName="name" />
+    </div>
+    <div class="form-row">
+      <label>Address</label>
+      <input type="text" formControlName="address" />
+    </div>
+    <div class="form-row">
+      <label>Mobile</label>
+      <input type="text" formControlName="mobile" />
+    </div>
+    <div class="form-row">
+      <label>Email</label>
+      <input type="email" formControlName="email" />
+    </div>
+    <div class="form-row">
+      <label>Category</label>
+      <select formControlName="category">
+        <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+      </select>
+    </div>
+
+    <div class="drawer-actions">
+      <button type="button" class="btn btn-secondary" (click)="cancel()">Cancel</button>
+      <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Save</button>
+    </div>
+  </form>
+</div>

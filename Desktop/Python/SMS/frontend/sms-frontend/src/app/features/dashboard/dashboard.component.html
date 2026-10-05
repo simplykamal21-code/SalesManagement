@@ -1,0 +1,42 @@
+<div class="page-container" *ngIf="summary">
+
+  <div class="kpi-row">
+    <div class="card kpi">
+      <div class="kpi-label">Total Sales</div>
+      <div class="kpi-value">{{ summary.totalSales | number:'1.2-2' }}</div>
+    </div>
+    <div class="card kpi">
+      <div class="kpi-label">Total Gross Profit</div>
+      <div class="kpi-value profit">{{ summary.totalGrossProfit | number:'1.2-2' }}</div>
+    </div>
+    <div class="card kpi">
+      <div class="kpi-label">Top Selling Item</div>
+      <div class="kpi-value small">{{ summary.topSellingItem }}</div>
+    </div>
+  </div>
+
+  <div class="chart-row">
+    <div class="card chart-card">
+      <h3>Sales Trend</h3>
+      <dx-chart [dataSource]="summary.salesTrend">
+        <dxi-series valueField="amount" argumentField="period" type="bar" color="#2f6fed"></dxi-series>
+        <dxo-argument-axis [label]="{ overlappingBehavior: 'rotate' }"></dxo-argument-axis>
+        <dxo-tooltip [enabled]="true"></dxo-tooltip>
+      </dx-chart>
+    </div>
+
+    <div class="card chart-card">
+      <h3>Sales by Category</h3>
+      <dx-pie-chart [dataSource]="summary.salesByCategory" type="doughnut">
+        <dxi-series argumentField="category" valueField="amount">
+          <dxo-label [visible]="true" format="percent"></dxo-label>
+        </dxi-series>
+        <dxo-legend verticalAlignment="bottom" horizontalAlignment="center"></dxo-legend>
+      </dx-pie-chart>
+    </div>
+  </div>
+</div>
+
+<div class="page-container" *ngIf="loading">
+  <p>Loading dashboard...</p>
+</div>

@@ -1,0 +1,144 @@
+<div class="page-container">
+
+  <!-- Navigation Bar -->
+  <div class="card nav-bar">
+    <div class="nav-buttons">
+      <button class="btn btn-secondary" (click)="goFirst()" [disabled]="!isReadOnly">Top</button>
+      <button class="btn btn-secondary" (click)="goPrior()" [disabled]="!isReadOnly">Prior</button>
+      <button class="btn btn-secondary" (click)="goNext()" [disabled]="!isReadOnly">Next</button>
+      <button class="btn btn-secondary" (click)="goLast()" [disabled]="!isReadOnly">Bottom</button>
+      <button class="btn btn-secondary" (click)="openSearch()" [disabled]="!isReadOnly">Search</button>
+      <button class="btn btn-secondary" (click)="openList()" [disabled]="!isReadOnly">List</button>
+    </div>
+    <div class="record-info" *ngIf="invoice.invoiceNumber">
+      Invoice #{{ invoice.invoiceNumber }} &middot; {{ invoiceType }}
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="card">
+    <h2>Sales Invoice Entry</h2>
+    <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <div class="header-grid">
+      <div class="form-row">
+        <label>Invoice Type</label>
+        <input type="text" [value]="invoiceType" disabled />
+      </div>
+      <div class="form-row">
+        <label>Invoice Number</label>
+        <input type="text" [value]="invoice.invoiceNumber || '(auto)'" disabled />
+      </div>
+      <div class="form-row">
+        <label>Date</label>
+        <input type="date" [(ngModel)]="invoice.invoiceDate" [disabled]="isReadOnly" />
+      </div>
+      <div class="form-row">
+        <label>Customer</label>
+        <select [(ngModel)]="invoice.customerId" [disabled]="isReadOnly">
+          <option [value]="0" disabled>Select customer...</option>
+          <option *ngFor="let c of customerList" [value]="c.customerId">{{ c.code }} - {{ c.name }}</option>
+        </select>
+      </div>
+      <div class="form-row wide">
+        <label>Description</label>
+        <input type="text" [(ngModel)]="invoice.invoiceDescription" [disabled]="isReadOnly" />
+      </div>
+    </div>
+
+    <!-- Line Items Grid -->
+    <table class="line-grid">
+      <thead>
+        <tr>
+          <th>Item</th><th>Description</th><th>Unit</th><th>Qty</th><th>Price</th><th>Amount</th><th *ngIf="!isReadOnly"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let line of invoice.lines; let i = index">
+          <td>
+            <select [(ngModel)]="line.itemId" (ngModelChange)="onItemChange(line)" [disabled]="isReadOnly">
+              <option [value]="0" disabled>Select item...</option>
+              <option *ngFor="let it of itemList" [value]="it.itemId">{{ it.code }}</option>
+            </select>
+          </td>
+          <td>{{ line.itemDescription }}</td>
+          <td>{{ line.unit }}</td>
+          <td>
+            <input type="number" min="0" step="0.01" [(ngModel)]="line.qty" [disabled]="isReadOnly" />
+          </td>
+          <td>
+            <input type="number" min="0" step="0.01" [(ngModel)]="line.price" [disabled]="isReadOnly" />
+          </td>
+          <td class="amount">{{ lineAmount(line) | number:'1.2-2' }}</td>
+          <td *ngIf="!isReadOnly">
+            <button type="button" class="btn btn-danger small" (click)="removeLine(i)">✕</button>
+          </td>
+        </tr>
+        <tr *ngIf="invoice.lines.length === 0">
+          <td [attr.colspan]="isReadOnly ? 6 : 7" class="empty">No line items yet.</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td [attr.colspan]="isReadOnly ? 5 : 6" class="total-label">Total</td>
+          <td class="amount total">{{ total | number:'1.2-2' }}</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <button type="button" class="btn btn-secondary" *ngIf="!isReadOnly" (click)="addLine()">+ Add Line</button>
+  </div>
+
+  <!-- Updation Bar -->
+  <div class="card update-bar">
+    <ng-container *ngIf="isReadOnly">
+      <button class="btn btn-primary" (click)="add()">Add</button>
+      <button class="btn btn-secondary" (click)="edit()" [disabled]="!invoice.invoiceNumber">Edit</button>
+      <button class="btn btn-danger" (click)="delete()" [disabled]="!invoice.invoiceNumber">Delete</button>
+    </ng-container>
+    <ng-container *ngIf="!isReadOnly">
+      <button class="btn btn-primary" (click)="save()">Save</button>
+      <button class="btn btn-secondary" (click)="cancel()">Cancel</button>
+    </ng-container>
+  </div>
+</div>
+
+<!-- Search dialog -->
+<div class="overlay" *ngIf="showSearch" (click)="showSearch = false"></div>
+<div class="dialog" *ngIf="showSearch">
+  <h3>Search Invoices</h3>
+  <div class="search-row">
+    <input type="text" placeholder="Invoice #, customer or description" [(ngModel)]="searchTerm" (keyup.enter)="runSearch()" />
+    <button class="btn btn-primary" (click)="runSearch()">Search</button>
+  </div>
+  <table class="line-grid">
+    <thead><tr><th>Invoice #</th><th>Date</th><th>Customer</th><th>Total</th></tr></thead>
+    <tbody>
+      <tr *ngFor="let r of searchResults" (click)="pickSearchResult(r)" class="clickable">
+        <td>{{ r.invoiceNumber }}</td>
+        <td>{{ r.invoiceDate | date:'mediumDate' }}</td>
+        <td>{{ r.customerName }}</td>
+        <td>{{ r.totalAmount | number:'1.2-2' }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-secondary" (click)="showSearch = false">Close</button>
+</div>
+
+<!-- List dialog -->
+<div class="overlay" *ngIf="showList" (click)="showList = false"></div>
+<div class="dialog" *ngIf="showList">
+  <h3>All Invoices</h3>
+  <table class="line-grid">
+    <thead><tr><th>Invoice #</th><th>Date</th><th>Customer</th><th>Total</th></tr></thead>
+    <tbody>
+      <tr *ngFor="let r of listResults" (click)="pickListResult(r)" class="clickable">
+        <td>{{ r.invoiceNumber }}</td>
+        <td>{{ r.invoiceDate | date:'mediumDate' }}</td>
+        <td>{{ r.customerName }}</td>
+        <td>{{ r.totalAmount | number:'1.2-2' }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-secondary" (click)="showList = false">Close</button>
+</div>
